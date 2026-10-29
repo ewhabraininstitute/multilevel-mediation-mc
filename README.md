@@ -44,7 +44,7 @@ res <- mlm_mediation_mc(df, x = "lag_night_sleep_min", m = "lag_noct_mage", y = 
 res[, c("ACME_std", "ACME_std_lwr", "ACME_std_upr", "ACME_p_MC", "Prop_mediated")]
 ```
 
-Reported result (executive function, n = 4,253 person-days): standardised indirect effect 0.0085 (95% CI 0.0048–0.0131 [unrounded 2.5th percentile 0.004748]), P < 0.001, 8.4% of the total effect.
+Reported result (executive function, n = 4,253 person-days): standardised indirect effect 0.0085 (95% CI 0.0047–0.0131), P < 0.001, 8.4% of the total effect.
 
 ## License
 
